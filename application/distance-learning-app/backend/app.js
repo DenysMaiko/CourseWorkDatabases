@@ -20,8 +20,6 @@ app.use('/api/activities', activitiesRouter);
 app.use('/api/resources', resourcesRouter);
 app.use('/api/grades', gradesRouter);
 
-// TODO: add routes here
-
 const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
